@@ -1,0 +1,53 @@
+.navbar{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    display: flex;
+    background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+    padding: 0 6.4rem;
+    position: fixed;
+    z-index: 99;
+    transition: all 0.3s;
+}
+.logo-and-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.netflix-logo{
+    width: 10.5rem;
+    height: 5.7rem;
+}
+.netflix-logo img{
+    width: 100%;
+    height: 100%;
+}
+.netflix-items ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.netflix-items ul li{
+    list-style: none;
+}
+.netflix-items ul li a{
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.netflix-items ul li a:hover{
+    color: #cccccc;
+}
+.search-and-userImage{
+    display: flex;
+    gap:20px;
+}
+.search-and-userImage img{
+    border-radius: 5px;
+    width: 35px;
+}

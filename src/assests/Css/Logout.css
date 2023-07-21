@@ -1,0 +1,78 @@
+
+.logout-section{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.img-section {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.img-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.header-logoutBox-footer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.logoutBox{
+    background-color: #fafafa;
+    color:#333;
+    line-height: 1.5;
+    margin: 100px auto 0;
+    padding: 30px 45px;
+    width: 500px;
+}
+.logoutBox p{
+    font-size: 1.8rem;
+}
+.logout-page-header{
+    font-size: 3.4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.goNow-btn{
+    font-size: 2rem;
+    min-height: 48px;
+    width: 100%;
+    padding: 14px 2rem;
+    background-color: #0080ff;
+    color: white;
+    border-style: none;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+}
+.footer-logout{
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding:3rem 0;
+    margin: 8rem auto 0;
+}
+.footerLinks-logout{
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.needHelp{
+    font-size: 1.6rem;
+    color: #b3b3b3;
+    margin: 10px 0;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+}
+.footer-links-logout{
+    list-style: none;
+    min-width: 100px;
+    width: 25%;
+    margin-bottom: 16px;
+    font-size: 1.4rem;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+    color: #b3b3b3;
+}

@@ -1,0 +1,25 @@
+.search-result-media-data-section{
+    padding: 100px 6.4rem;
+}
+.search-result-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.nothing-found-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 100px;
+}
+.notFound-text{
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+.notFound-text-extra-margin-bottom{
+    margin-bottom: 10px;
+}
+.nothing-found-box ul li{
+    margin-left: 40px;
+}

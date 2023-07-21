@@ -1,0 +1,14 @@
+.buttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 2rem;
+    border: none;
+    font-weight: 600;
+    padding: 8px 27.64px 8px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#icons{
+    font-size: 4rem;
+}

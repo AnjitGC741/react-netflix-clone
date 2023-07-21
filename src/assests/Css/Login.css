@@ -1,0 +1,160 @@
+.login-main-div {
+    position: relative;
+    min-width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 120vh;
+}
+.background-img-login {
+    display: block;
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.background-img-login img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header-login-form {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.for-login-form {
+    min-height: 730px;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0,0.75);
+    margin: 0 auto;
+    padding: 60px 68px 40px;
+    margin-bottom: 90px;
+}
+.for-login-form h1 {
+    color: #fff;
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: 0.8px;
+}
+#name-input {
+    height: 5rem;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    width: 100%;
+    background: #333;
+    border: none;
+    padding-left: 2rem;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+#name-input:focus {
+    outline: none;
+}
+#name-input::placeholder{
+    font-size: 1.6rem;
+    color: #818181;
+    font-weight: 400;
+}
+.submitBtn-login {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    border-style: none;
+    background-color: #e50914;
+    margin-top: 4.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.checkbox-needHelp-box{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:10px 0 80px 0;
+}
+.checkBox-box{
+    display:flex;
+    gap:5px;
+    align-items:flex-end
+}
+input[type="checkbox"] {
+    background: #b3b3b3;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+}
+input[type="checkbox"]:checked {
+    background: #b3b3b3;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.07 10.44L2.25 7.62a.75.75 0 0 1 1.06-1.06l2.16 2.16 4.97-4.97a.75.75 0 0 1 1.06 1.06l-5.25 5.25a.75.75 0 0 1-1.06 0z' fill='%23fff'/%3E%3C/svg%3E");
+}
+.rememberMe {
+    font-size: 1.4rem;
+    color: #b3b3b3;
+    font-weight: 400;
+}
+.needHelp{
+    font-size: 1.4rem;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 400;
+}
+.needHelp:hover{
+    text-decoration: underline;
+}
+.newToNetflix{
+    font-size: 1.8rem;
+    color: #b3b3b3!important;
+    letter-spacing: 0.4px;
+    font-weight: 300;
+}
+.signUp{
+    color: white;
+    font-size: 1.8rem;
+}
+.protectedText{
+    font-size: 1.4rem;
+    color: #b3b3b3;
+    margin-top: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+
+}
+.footer-login{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding:3rem 0;
+    display: flex;
+    justify-content: center;
+}
+.footer-secondary-div{
+    width: 60%;
+}
+.footerLinks-login{
+    padding: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerLinks-login li{
+    list-style: none;
+    min-width: 100px;
+    width: 25%;
+    margin-bottom: 16px;
+}
+.footerLinks-login li a{
+    font-size: 1.4rem;
+    color: #b3b3b3;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+}
+.emptyFieldMsg{
+    font-size: 1.4rem;
+    color: #e87c03;
+    margin-top: 8px;
+    padding-left: 5px;
+}
